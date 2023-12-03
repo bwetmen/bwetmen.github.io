@@ -1,0 +1,46 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+.perkenalan{
+    padding: 90px 85px;
+    gap: 40px;
+}
+.gambar{
+    width: 450px;
+    height: 300px;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: blanchedalmond;
+}
+ul.nav-link{
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+li.nav-links
+{
+    display: inline-block;
+    margin: 20px;
+    font-size: 15px;
+}
+nav{
+    position: sticky;
+    top: 0;
+    padding: 0;
+    display: flex;
+    align-items: center ;
+    box-shadow: 0 5px 80px rgba(0, 0, 0, 0.1);
+}
+.button{
+
+}
+button:hover{
+    background-color: blueviolet;
+}
